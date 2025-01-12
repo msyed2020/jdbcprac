@@ -1,6 +1,6 @@
 package com.mikailexample;
 
-public class Love {
+public class Love implements Peace {
     private int love;
     public Love() {
         System.out.println("Love");
@@ -12,7 +12,7 @@ public class Love {
     public void setLove(int love) {
         this.love = love;
     }
-
+    @Override
     public void loving() {
         System.out.println("I love you");
     }
