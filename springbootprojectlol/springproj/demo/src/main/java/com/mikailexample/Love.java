@@ -12,4 +12,8 @@ public class Love {
     public void setLove(int love) {
         this.love = love;
     }
+
+    public void loving() {
+        System.out.println("I love you");
+    }
 }
