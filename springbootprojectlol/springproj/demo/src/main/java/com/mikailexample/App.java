@@ -14,6 +14,11 @@ public class App
 
         ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
         Terra terra = (Terra) context.getBean("terra");
+        terra.setPercentAwesome(100);
+        System.out.println(terra.getPercentAwesome());
         terra.code();
+        Love l = (Love) context.getBean("love");
+        //l.setLove(0);
+        System.out.println(l.getLove());
     }
 }
