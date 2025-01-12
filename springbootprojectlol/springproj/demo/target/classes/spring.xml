@@ -7,7 +7,7 @@
 
 </bean>
 
-<bean id="love" class="com.mikailexample.Love" scope="singleton">
+<bean id="love" class="com.mikailexample.Love" scope="singleton" primary="true">
     <property name="love" value="100"></property>
 </bean>
 
