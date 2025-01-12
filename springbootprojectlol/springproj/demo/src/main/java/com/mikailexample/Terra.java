@@ -4,6 +4,7 @@ public class Terra {
 
     private int percentAwesome;
     private Love lovemsg = new Love();
+    private Peace peace = new Hugs();
 
     public Terra() {
         System.out.println("I love Terra");
@@ -11,6 +12,7 @@ public class Terra {
     public void code() {
         System.out.println("I'm coding");
         lovemsg.loving();
+        peace.loving();
     }
 
     public int getPercentAwesome() {

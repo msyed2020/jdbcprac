@@ -11,4 +11,7 @@
     <property name="love" value="100"></property>
 </bean>
 
+<bean id="hugs" class="com.mikailexample.Hugs" scope="singleton">
+</bean>
+
 </beans>
