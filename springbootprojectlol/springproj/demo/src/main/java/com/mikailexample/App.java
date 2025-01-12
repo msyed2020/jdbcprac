@@ -12,9 +12,8 @@ public class App
     public static void main( String[] args )
     {
 
-        ApplicationContext context = new ClassPathXmlApplicationContext();
-        Terra terra = new Terra();
+        ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
+        Terra terra = (Terra) context.getBean("terra");
         terra.code();
-
     }
 }
