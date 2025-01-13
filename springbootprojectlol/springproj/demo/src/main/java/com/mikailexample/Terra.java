@@ -1,5 +1,8 @@
 package com.mikailexample;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Terra {
 
     private int percentAwesome;
