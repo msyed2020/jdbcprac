@@ -11,6 +11,9 @@ public class AppConfig {
     @Bean
     @Scope("prototype")
     public Terra terra() {
-        return new Terra();
+        Terra terra = new Terra();
+        terra.setPercentAwesome(100);
+        System.out.println(terra.getPercentAwesome());
+        return terra;
     }
 }
