@@ -17,7 +17,7 @@ public class App
     {
 
         //ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
-        ApplicationContext context = new SpringApplication.run(SpringBoot)
+        ApplicationContext context = SpringApplication.run(App.class);
 
         Terra t = context.getBean(Terra.class);
         t.code();
