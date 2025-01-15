@@ -1,8 +1,10 @@
-package com.mikailexample.demo;
+package com.mikailexample.demo.model;
 
 import org.springframework.stereotype.*;
+import org.springframework.context.annotation.Scope;;
 
 @Component
+@Scope("Prototype")
 public class Student {
     private int id;
     private String name;
