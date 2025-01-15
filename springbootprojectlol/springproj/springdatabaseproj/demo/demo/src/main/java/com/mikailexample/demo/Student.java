@@ -1,5 +1,8 @@
 package com.mikailexample.demo;
 
+import org.springframework.stereotype.*;
+
+@Component
 public class Student {
     private int id;
     private String name;
