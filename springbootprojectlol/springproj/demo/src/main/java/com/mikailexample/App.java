@@ -1,5 +1,8 @@
 package com.mikailexample;
 
+// In a practical application, all the classes (App, Hugs, Love, Peace, Terra) should be in a model package, and there should
+// be a service package for the service/repository features
+
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
