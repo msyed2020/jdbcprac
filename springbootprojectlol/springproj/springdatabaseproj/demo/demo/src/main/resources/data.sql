@@ -1,0 +1,1 @@
+insert into student (id, name, grade) values (20, 'Mikail', 100);
