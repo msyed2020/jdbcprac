@@ -23,7 +23,9 @@ public class DemoApplication {
 
 		StudentRepo repo = context.getBean(StudentRepo.class);
 
-		repo.save(s);
+		System.out.println(repo.findAll());
+
+		
 	}
 
 }
