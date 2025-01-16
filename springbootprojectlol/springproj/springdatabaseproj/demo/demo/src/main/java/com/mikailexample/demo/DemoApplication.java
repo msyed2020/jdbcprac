@@ -1,5 +1,7 @@
 package com.mikailexample.demo;
 
+import java.util.List;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.*;
@@ -21,9 +23,11 @@ public class DemoApplication {
 
 		service.addStudent(s);
 
-		StudentRepo repo = context.getBean(StudentRepo.class);
+		//StudentRepo repo = context.getBean(StudentRepo.class);
 
-		System.out.println(repo.findAll());
+		List<Student> students = service.getStudents();
+
+		System.out.println(students);
 
 		
 	}
